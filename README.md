@@ -4,6 +4,15 @@ Main purposes:
 - Train embedded development technics
 - MVP for auto-tests
 
+# quick build
+
+```
+sudo docker run -it --rm -v $PWD:/build buildroot/base
+git clone <THISREPO>
+cd <THISREP>
+make
+```
+
 ## Build
 ### Requirements
 - GCC 7.4+
